@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hackathon-Repo
 
 Full-stack application with FastAPI backend (NER model) and React frontend. Supports both Docker and local development workflows.
@@ -81,3 +82,19 @@ Backend API endpoints:
 - Authentication uses an in-memory store and a placeholder secret — replace with a database and secure key for production.
 - Hot reload is enabled for both frontend and backend in development mode.
 - API base URL defaults to http://localhost:8000/api but can be configured via REACT_APP_API_BASE environment variable.
+=======
+# 🍕 Named Entity Recognition System for Domino's Texts
+Fine-tuned transformer-based model that extracts order details like size, item, topping, address, and time from text.
+
+## How It Works
+1. The NER model (DistilBERT) is fine-tuned using Hugging Face Transformers.
+2. FastAPI serves the model as a REST API.
+3. Frontend (HTML, CSS, JS) sends text → API returns entities → UI displays results.
+
+## Run Steps
+```bash
+pip install -r backend/requirements.txt
+python train_ner.py
+cd backend
+uvicorn app:app --reload
+>>>>>>> f16879b4c6341ce558b4653dc33f0f1a51e6bdbf

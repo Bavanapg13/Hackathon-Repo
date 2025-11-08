@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.pyc
 .env
 .venv/
+backend/model/
+*.pt
+*.bin
 
 # Node
 node_modules/
@@ -15,3 +19,4 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+>>>>>>> f16879b4c6341ce558b4653dc33f0f1a51e6bdbf
