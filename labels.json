@@ -1,0 +1,10 @@
+{
+  "labels": [
+    "O",
+    "B-ITEM","I-ITEM",
+    "B-SIZE","I-SIZE",
+    "B-TOPPING","I-TOPPING",
+    "B-ADDRESS","I-ADDRESS",
+    "B-TIME","I-TIME"
+  ]
+}

@@ -1,0 +1,6 @@
+backend/model/
+__pycache__/
+.vscode/
+*.pt
+*.bin
+.DS_Store
